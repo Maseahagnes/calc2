@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fffccc"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/firstname" 
+        android:background="#ffffff"
+        android:textSize="20sp" 
+        android:layout_margin="30dp"/>
+
+    <EditText
+        android:id="@+id/etfirstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_margin="10dp"
+        android:textSize="20sp" 
+        android:text="@string/secondname" />
+
+    <EditText
+        android:id="@+id/etsecondname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:background="#ffffff" 
+        android:textSize="20sp" 
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/etemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/tvemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/idnumber"
+        android:background="#ffffff"
+        android:textSize="20sp" 
+        android:layout_margin="10dp" />
+
+    <EditText
+        android:id="@+id/etidnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnregsubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Button_submit" 
+        android:background="#ffffff"
+        android:textSize="20sp" 
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btnregcancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Button_cancel"
+        android:background="#ffffff"
+        android:layout_margin="10dp"
+        android:textSize="20sp" />
+    
+</LinearLayout>

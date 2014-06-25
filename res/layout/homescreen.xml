@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/tvHomeNumberOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/numberone" 
+        android:background="#ffffff"
+        android:textSize="30sp"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/etHomeNumberone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/tvhomeNumberTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/numbertwo"
+        android:background="#ffffff"
+        android:textSize="30sp"
+        android:layout_margin="5dp" />
+
+    <EditText
+        android:id="@+id/etHomeNumberTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+    
+       <TextView
+        android:id="@+id/tvresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/result"
+        android:background="#ffffff"
+        android:textSize="30sp"
+        android:layout_margin="5dp" />
+
+    <Button
+        android:id="@+id/btnHomeAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Button_addition" 
+        android:background="#ffffff"
+        android:textSize="30sp"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/btnHomeSubstraction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Button_subtraction" 
+        android:background="#ffffff"
+        android:textSize="30sp"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/btnHmeDivision"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Button_division" 
+        android:background="#ffffff"
+        android:textSize="30sp"
+        android:layout_margin="5dp"/>
+
+</LinearLayout>
